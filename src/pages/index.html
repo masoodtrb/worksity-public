@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
+  <meta name="theme-color" content="#000000">
+  <title>Worksity</title>
+</head>
+<body class="mdc-typography">
+<div id="root">
+  <div class="drawer-frame-root">
+    <header class="mdc-top-app-bar drawer-top-app-bar worksity-top-bar" id="app-bar" style="top: 0;">
+      <div class="mdc-top-app-bar__row">
+        <section class="mdc-top-app-bar__section mdc-top-app-bar__section--align-start">
+          <a href="#" class="demo-menu material-icons mdc-top-app-bar__navigation-icon">menu</a>
+          <span class="mdc-top-app-bar__title">Worksity</span>
+        </section>
+        <section class="mdc-top-app-bar__section mdc-top-app-bar__section--align-end hidden-sm hidden-xs">
+          <div class="mdc-text-field mdc-text-field--outlined mdc-text-field--with-leading-icon worksity-layout--search-bar">
+            <i class="material-icons mdc-text-field__icon">search</i>
+            <input class="mdc-text-field__input">
+            <div class="mdc-notched-outline">
+              <div class="mdc-notched-outline__leading"></div>
+              <div class="mdc-notched-outline__notch">
+                <label class="mdc-floating-label">Search</label>
+              </div>
+              <div class="mdc-notched-outline__trailing"></div>
+            </div>
+          </div>
+        </section>
+        <section class="mdc-top-app-bar__section mdc-top-app-bar__section--align-end">
+          <a href="#" class="mdc-button mdc-top-app-bar__action-link">FAQ</a>
+          <a href="#" class="mdc-button btn-warning nav-item">Hire</a>
+          <div class="mdc-menu-surface--anchor">
+            <button id="menu-surface-button"
+                    class="mdc-fab user-avatar"
+                    aria-label="Favorite"
+                    style="background-image: url('../public/images/avatar.png')">
+              <span class="mdc-fab__icon"></span>
+            </button>
+            <div id="user-list" class="mdc-menu-surface mdc-menu-surface--fixed">
+              <ul class="mdc-list" role="menu" aria-hidden="true">
+                <li class="mdc-list-item mdc-ripple-upgraded" role="menuitem" tabindex="0"><i class="material-icons">perm_identity</i>&nbsp;John
+                                                                                                                                      Doe
+                </li>
+                <li class="mdc-list-item mdc-ripple-upgraded" role="menuitem" tabindex="-2"><i class="material-icons">exit_to_app</i>&nbsp;Logout
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+      </div>
+      <div class="mdc-top-app-bar__row visible-sm visible-xs">
+        <section class="mdc-top-app-bar__row mdc-top-app-bar__section">
+          <div class="mdc-text-field mdc-text-field--outlined mdc-text-field--with-leading-icon worksity-layout--search-bar">
+            <i class="material-icons mdc-text-field__icon">search</i>
+            <input class="mdc-text-field__input">
+            <div class="mdc-notched-outline">
+              <div class="mdc-notched-outline__leading"></div>
+              <div class="mdc-notched-outline__notch">
+                <label class="mdc-floating-label">Search</label>
+              </div>
+              <div class="mdc-notched-outline__trailing"></div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </header>
+    <aside class="mdc-drawer mdc-drawer--dismissible mdc-top-app-bar--fixed-adjust mdc-drawer--open worksity-drawer">
+
+      <div class="mdc-drawer__header">
+        <div class="worksity-logo-drawer"></div>
+      </div>
+      <div class="mdc-drawer__content">
+        <nav class="mdc-list">
+          <a class="mdc-list-item mdc-list-item--activated" aria-selected="true" tabindex="0" href="#">
+            <span class="mdc-list-item__text">Featured</span>
+          </a>
+          <a class="mdc-list-item" href="#">
+            <span class="mdc-list-item__text">Apartment</span>
+          </a>
+          <a class="mdc-list-item" href="#">
+            <span class="mdc-list-item__text">Accessories</span>
+          </a>
+          <a class="mdc-list-item" href="#">
+            <span class="mdc-list-item__text">Shoes</span>
+          </a>
+          <a class="mdc-list-item" href="#">
+            <span class="mdc-list-item__text">Tops</span>
+          </a>
+          <a class="mdc-list-item" href="#">
+            <span class="mdc-list-item__text">Bottoms</span>
+          </a>
+          <a class="mdc-list-item" href="#">
+            <span class="mdc-list-item__text">Dresses</span>
+          </a>
+          <a class="mdc-list-item" href="#">
+            <span class="mdc-list-item__text">My Account</span>
+          </a>
+        </nav>
+      </div>
+    </aside>
+
+    <div class="mdc-drawer-app-content mdc-top-app-bar--fixed-adjust">
+      <main class="main-content worksity-home" id="main-content">
+        <div class="mdc-layout-grid worksity-home_top-page">
+          <div class="mdc-layout-grid mdc-layout-grid--align-center demo-grid demo-grid--alignment" style="width: 70%">
+            <div class="mdc-layout-grid__inner">
+              <div class="demo-cell mdc-layout-grid__cell mdc-layout-grid__cell--span-12-desktop">
+                <img src="../public/images/worksitylogo.png" alt="worksity" class="worksity-home-logo">
+                <h1 class="worksity-home_main-title">HIRE A LOCAL. BUILD YOUR COMMUNITY.</h1>
+                <p class="worksity-home_main-subtitle">We connect local talents and local university students to local
+                                                       people and local businesses</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="mdc-layout-grid worksity-home_main-content">
+          <h2 class="text-center">Jobs available in your community</h2>
+          <div class="row">
+            <div class="col-md-3 hidden-xs">
+              <section>
+                <h3>Top Local Job-Doers</h3>
+                <div class="mdc-card demo-card">
+                  <div class="mdc-card__primary-action demo-card__primary-action" tabindex="0">
+                    <div class="mdc-card__media mdc-card__media--16-9 demo-card__media"
+                         style="background-image: url('https://material-components.github.io/material-components-web-catalog/static/media/photos/3x2/2.jpg');"></div>
+                    <div class="demo-card__primary">
+                      <h2 class="demo-card__title mdc-typography mdc-typography--headline6">Top Local Job-Doers</h2>
+                      <!--<h3 class="demo-card__subtitle mdc-typography mdc-typography&#45;&#45;subtitle2">by Kurt Wagner</h3>-->
+                    </div>
+                    <div class="demo-card__secondary mdc-typography mdc-typography--body2">
+                      Discription of the candidate. What they do and why they do it… Their hourly rate
+                    </div>
+                  </div>
+                  <div class="mdc-card__actions">
+                    <div class="mdc-card__action-buttons">
+                      <button class="mdc-button mdc-card__action mdc-card__action--button btn-warning">Hire a Local
+                                                                                                       Now
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </section>
+              <!-- Accordion Toggle
+               ::::::::::::::::::::::::::::::::::::::::: -->
+              <section>
+                <h3>Accordion Toggle</h3>
+
+                <div class="mdc-list mdc-accordion mdc-elevation--z1">
+                  <div class="accordion-toggle mdc-list-item" tabindex="0">
+                    Line item<span class="mdc-list-item__meta material-icons" aria-hidden="true">add</span>
+                  </div>
+                  <div class="accordion-container">
+                    <div class="row">
+                      <div class="col-md-12">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae doloremque id, minus molestiae
+                        non numquam perspiciatis sapiente velit vitae voluptas. Ad doloribus magni nobis perspiciatis
+                        quasi? Ad dignissimos mollitia odit.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="mdc-list-divider" role="separator"></div>
+                  <div class="accordion-toggle mdc-list-item" tabindex="0">
+                    Line item 2<span class="mdc-list-item__meta material-icons" aria-hidden="true">add</span>
+                  </div>
+                  <div class="accordion-container">
+                    <div class="row">
+                      <div class="col-md-12">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet debitis ea expedita inventore
+                        magnam, mollitia nobis omnis quasi similique tempore. Aut blanditiis eligendi expedita impedit
+                        molestias quibusdam quis sequi sint?
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </section>
+            </div>
+            <div class="col-md-6 worksity-jobs">
+              <div class="col-xs-12 worksity-jobs--item">
+                <div class="mdc-card demo-card demo-ui-control">
+                  <div class="mdc-card__primary-action demo-card__primary-action" tabindex="0">
+                    <div class="mdc-card__media mdc-card__media--square demo-card__media"
+                         style="background-image: url('https://material-components.github.io/material-components-web-catalog/static/media/photos/3x2/4.jpg');"></div>
+                    <div class="demo-card__primary">
+                      <h2 class="demo-card__title mdc-typography mdc-typography--headline6">Our Changing Planet</h2>
+                      <h3 class="demo-card__subtitle mdc-typography mdc-typography--subtitle2">by Kurt Wagner</h3>
+                    </div>
+                  </div>
+                  <div class="mdc-card__actions">
+                    <div class="mdc-card__action-buttons">
+                      <button class="mdc-button mdc-card__action mdc-card__action--button">Read</button>
+                      <button class="mdc-button mdc-card__action mdc-card__action--button">Bookmark</button>
+                    </div>
+                    <div class="mdc-card__action-icons">
+                      <button class="mdc-icon-button mdc-card__action mdc-card__action--icon--unbounded"
+                              aria-pressed="false"
+                              aria-label="Add to favorites"
+                              title="Add to favorites">
+                        <i class="material-icons mdc-icon-button__icon mdc-icon-button__icon--on">favorite</i>
+                        <i class="material-icons mdc-icon-button__icon">favorite_border</i>
+                      </button>
+                      <button class="mdc-icon-button material-icons mdc-card__action mdc-card__action--icon--unbounded"
+                              title="Share"
+                              data-mdc-ripple-is-unbounded="true">share
+                      </button>
+                      <button class="mdc-icon-button material-icons mdc-card__action mdc-card__action--icon--unbounded"
+                              title="More options"
+                              data-mdc-ripple-is-unbounded="true">more_vert
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xs-12 worksity-jobs--item">
+                <div class="mdc-card demo-card demo-ui-control">
+                  <div class="mdc-card__primary-action demo-card__primary-action" tabindex="0">
+                    <div class="mdc-card__media mdc-card__media--square demo-card__media"
+                         style="background-image: url('https://material-components.github.io/material-components-web-catalog/static/media/photos/3x2/5.jpg');"></div>
+                    <div class="demo-card__primary">
+                      <h2 class="demo-card__title mdc-typography mdc-typography--headline6">Our Changing Planet</h2>
+                      <h3 class="demo-card__subtitle mdc-typography mdc-typography--subtitle2">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid amet assumenda at deserunt
+                        dignissimos harum ipsum, laudantium magnam necessitatibus odit optio qui ratione repellendus
+                        sunt tenetur totam vitae voluptate voluptates.
+                      </h3>
+                    </div>
+                  </div>
+                  <div class="mdc-card__actions">
+                    <div class="mdc-card__action-buttons">
+                      <button class="mdc-button mdc-card__action mdc-card__action--button">Read</button>
+                      <button class="mdc-button mdc-card__action mdc-card__action--button">Bookmark</button>
+                    </div>
+                    <div class="mdc-card__action-icons">
+                      <button class="mdc-icon-button mdc-card__action mdc-card__action--icon--unbounded"
+                              aria-pressed="false"
+                              aria-label="Add to favorites"
+                              title="Add to favorites">
+                        <i class="material-icons mdc-icon-button__icon mdc-icon-button__icon--on">favorite</i>
+                        <i class="material-icons mdc-icon-button__icon">favorite_border</i>
+                      </button>
+                      <button class="mdc-icon-button material-icons mdc-card__action mdc-card__action--icon--unbounded"
+                              title="Share"
+                              data-mdc-ripple-is-unbounded="true">share
+                      </button>
+                      <button class="mdc-icon-button material-icons mdc-card__action mdc-card__action--icon--unbounded"
+                              title="More options"
+                              data-mdc-ripple-is-unbounded="true">more_vert
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 hidden-xs">
+              <section>
+                <h3>Top Local Job-Doers</h3>
+                <div class="mdc-card demo-card">
+                  <div class="mdc-card__primary-action demo-card__primary-action" tabindex="0">
+                    <div class="mdc-card__media mdc-card__media--16-9 demo-card__media"
+                         style="background-image: url('https://material-components.github.io/material-components-web-catalog/static/media/photos/3x2/3.jpg');"></div>
+                    <div class="demo-card__primary">
+                      <h2 class="demo-card__title mdc-typography mdc-typography--headline6">
+                        Works Events Both
+                      </h2>
+                      <!--<h3 class="demo-card__subtitle mdc-typography mdc-typography&#45;&#45;subtitle2">by Kurt Wagner</h3>-->
+                    </div>
+                  </div>
+                </div>
+              </section>
+              <section>
+                <h3>Give us feedback</h3>
+                <ul class="mdc-list demo-list mdc-list--avatar-list mdc-elevation--z1" style="padding: 0;">
+                  <li class="mdc-list-item mdc-ripple-upgraded" tabindex="-1">
+                    Dog Photos
+                    <div class="mdc-checkbox mdc-list-item__meta mdc-checkbox--upgraded mdc-ripple-upgraded mdc-ripple-upgraded--unbounded">
+                      <input type="checkbox"
+                             class="mdc-checkbox__native-control"
+                             aria-labelledby="d5d62192-2f62-41d7-8912-bd449d5c369f"
+                             tabindex="-1">
+                      <div class="mdc-checkbox__background">
+                        <svg class="mdc-checkbox__checkmark" viewBox="0 0 24 24">
+                          <path class="mdc-checkbox__checkmark-path"
+                                fill="none"
+                                stroke="white"
+                                d="M1.73,12.91 8.1,19.28 22.79,4.59"></path>
+                        </svg>
+                        <div class="mdc-checkbox__mixedmark"></div>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="mdc-list-divider" role="separator"></li>
+                  <li class="mdc-list-item mdc-ripple-upgraded"
+                      id="106b3222-1e9b-4ab3-8af6-e29def9a56d7"
+                      tabindex="0"
+                      aria-checked="true">
+                    Cat Photos
+                    <div class="mdc-checkbox mdc-list-item__meta mdc-checkbox--upgraded mdc-ripple-upgraded mdc-ripple-upgraded--unbounded">
+                      <input type="checkbox"
+                             class="mdc-checkbox__native-control"
+                             aria-labelledby="106b3222-1e9b-4ab3-8af6-e29def9a56d7"
+                             tabindex="-1">
+                      <div class="mdc-checkbox__background">
+                        <svg class="mdc-checkbox__checkmark" viewBox="0 0 24 24">
+                          <path class="mdc-checkbox__checkmark-path"
+                                fill="none"
+                                stroke="white"
+                                d="M1.73,12.91 8.1,19.28 22.79,4.59"></path>
+                        </svg>
+                        <div class="mdc-checkbox__mixedmark"></div>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="mdc-list-divider" role="separator"></li>
+                  <li class="mdc-list-item mdc-ripple-upgraded"
+                      id="7f03a790-895c-4577-87c8-bf76aab5d07e"
+                      tabindex="-1"
+                      aria-checked="false">
+                    Potatoes
+                    <div class="mdc-checkbox mdc-list-item__meta mdc-checkbox--upgraded mdc-ripple-upgraded mdc-ripple-upgraded--unbounded">
+                      <input type="checkbox"
+                             class="mdc-checkbox__native-control"
+                             aria-labelledby="7f03a790-895c-4577-87c8-bf76aab5d07e"
+                             tabindex="-1">
+                      <div class="mdc-checkbox__background">
+                        <svg class="mdc-checkbox__checkmark" viewBox="0 0 24 24">
+                          <path class="mdc-checkbox__checkmark-path"
+                                fill="none"
+                                stroke="white"
+                                d="M1.73,12.91 8.1,19.28 22.79,4.59"></path>
+                        </svg>
+                        <div class="mdc-checkbox__mixedmark"></div>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="mdc-list-divider" role="separator"></li>
+                  <li class="mdc-list-item mdc-ripple-upgraded"
+                      id="d3e0b218-d248-4827-bfa3-0798bd810ebd"
+                      tabindex="-1"
+                      aria-checked="true">
+                    Carrots
+                    <div class="mdc-checkbox mdc-list-item__meta mdc-checkbox--upgraded mdc-ripple-upgraded mdc-ripple-upgraded--unbounded">
+                      <input type="checkbox"
+                             class="mdc-checkbox__native-control"
+                             aria-labelledby="d3e0b218-d248-4827-bfa3-0798bd810ebd"
+                             tabindex="-1">
+                      <div class="mdc-checkbox__background">
+                        <svg class="mdc-checkbox__checkmark" viewBox="0 0 24 24">
+                          <path class="mdc-checkbox__checkmark-path"
+                                fill="none"
+                                stroke="white"
+                                d="M1.73,12.91 8.1,19.28 22.79,4.59"></path>
+                        </svg>
+                        <div class="mdc-checkbox__mixedmark"></div>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="mdc-list-divider" role="separator"></li>
+                  <li class="">
+                    <button class="mdc-button" style="width: 100%">Vote</button>
+                  </li>
+                </ul>
+              </section>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
+  <meta name="theme-color" content="#000000">
+  <title>Worksity :: sign up step 1</title>
+</head>
+<body class="mdc-typography">
+<div id="root">
+  <div class="drawer-frame-root">
+    <header class="mdc-top-app-bar drawer-top-app-bar worksity-top-bar" id="app-bar" style="top: 0;">
+      <div class="mdc-top-app-bar__row">
+        <section class="mdc-top-app-bar__section mdc-top-app-bar__section--align-start">
+          <a href="#" class="demo-menu material-icons mdc-top-app-bar__navigation-icon">menu</a>
+          <span class="mdc-top-app-bar__title">Worksity</span>
+        </section>
+        <section class="mdc-top-app-bar__section mdc-top-app-bar__section--align-end hidden-sm hidden-xs">
+          <div class="mdc-text-field mdc-text-field--outlined mdc-text-field--with-leading-icon worksity-layout--search-bar">
+            <i class="material-icons mdc-text-field__icon">search</i>
+            <input class="mdc-text-field__input">
+            <div class="mdc-notched-outline">
+              <div class="mdc-notched-outline__leading"></div>
+              <div class="mdc-notched-outline__notch">
+                <label class="mdc-floating-label">Search</label>
+              </div>
+              <div class="mdc-notched-outline__trailing"></div>
+            </div>
+          </div>
+        </section>
+        <section class="mdc-top-app-bar__section mdc-top-app-bar__section--align-end">
+          <a href="#" class="mdc-button mdc-top-app-bar__action-link">FAQ</a>
+          <a href="#" class="mdc-button btn-warning nav-item">Hire</a>
+          <button class="mdc-fab btn-default--fab"
+                  aria-label="Favorite"
+                  style="">
+            <span class="material-icons fab__icon-lg mdc-fab__icon">account_circle</span>
+          </button>
+        </section>
+      </div>
+      <div class="mdc-top-app-bar__row visible-sm visible-xs">
+        <section class="mdc-top-app-bar__row mdc-top-app-bar__section">
+          <div class="mdc-text-field mdc-text-field--outlined mdc-text-field--with-leading-icon worksity-layout--search-bar">
+            <i class="material-icons mdc-text-field__icon">search</i>
+            <input class="mdc-text-field__input">
+            <div class="mdc-notched-outline">
+              <div class="mdc-notched-outline__leading"></div>
+              <div class="mdc-notched-outline__notch">
+                <label class="mdc-floating-label">Search</label>
+              </div>
+              <div class="mdc-notched-outline__trailing"></div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </header>
+    <aside class="mdc-drawer mdc-drawer--dismissible mdc-top-app-bar--fixed-adjust mdc-drawer--open worksity-drawer">
+
+      <div class="mdc-drawer__header">
+        <div class="worksity-logo-drawer"></div>
+      </div>
+      <div class="mdc-drawer__content">
+        <nav class="mdc-list">
+          <a class="mdc-list-item mdc-list-item--activated" aria-selected="true" tabindex="0" href="#">
+            <span class="mdc-list-item__text">Featured</span>
+          </a>
+          <a class="mdc-list-item" href="#">
+            <span class="mdc-list-item__text">Apartment</span>
+          </a>
+          <a class="mdc-list-item" href="#">
+            <span class="mdc-list-item__text">Accessories</span>
+          </a>
+          <a class="mdc-list-item" href="#">
+            <span class="mdc-list-item__text">Shoes</span>
+          </a>
+          <a class="mdc-list-item" href="#">
+            <span class="mdc-list-item__text">Tops</span>
+          </a>
+          <a class="mdc-list-item" href="#">
+            <span class="mdc-list-item__text">Bottoms</span>
+          </a>
+          <a class="mdc-list-item" href="#">
+            <span class="mdc-list-item__text">Dresses</span>
+          </a>
+          <a class="mdc-list-item" href="#">
+            <span class="mdc-list-item__text">My Account</span>
+          </a>
+        </nav>
+      </div>
+    </aside>
+
+    <div class="mdc-drawer-app-content mdc-top-app-bar--fixed-adjust">
+      <main class="main-content worksity-home" id="main-content">
+        <div class="mdc-layout-grid">
+          <div class="mdc-layout-grid mdc-layout-grid--align-center demo-grid demo-grid--alignment" style="width: 70%">
+            <div class="mdc-layout-grid__inner">
+              <div class="demo-cell mdc-layout-grid__cell mdc-layout-grid__cell--span-12-desktop">
+                <div role="progressbar" class="mdc-linear-progress sign-up-progress sign-up-progress-1 margin-bottom-30" data-progress="0.5">
+                  <div class="mdc-linear-progress__buffering-dots"></div>
+                  <div class="mdc-linear-progress__buffer"></div>
+                  <div class="mdc-linear-progress__bar mdc-linear-progress__primary-bar">
+                    <span class="mdc-linear-progress__bar-inner"></span>
+                  </div>
+                  <div class="mdc-linear-progress__bar mdc-linear-progress__secondary-bar">
+                    <span class="mdc-linear-progress__bar-inner"></span>
+                  </div>
+                  <span class="progress-label">50%</span>
+                </div>
+
+                <div class="mdc-card login-card mdc-card--outlined">
+                  <h2>Sign Up</h2>
+                  <hr>
+                  <div class="row">
+                    <div class="col-md-6">
+                      <div class="mdc-form-field mdc-text-field worksity-text-field--fullwidth mdc-text-field--outlined">
+                        <input id="firstname" name="firstname" class="mdc-text-field__input">
+                        <div class="mdc-notched-outline">
+                          <div class="mdc-notched-outline__leading"></div>
+                          <div class="mdc-notched-outline__notch">
+                            <label for="firstname" class="mdc-floating-label">First name</label>
+                          </div>
+                          <div class="mdc-notched-outline__trailing"></div>
+                        </div>
+                      </div>
+                      <div class="mdc-text-field-helper-line">
+                        <p class="mdc-text-field-helper-text mdc-text-field-helper-text--persistent mdc-text-field-helper-text--validation-msg"
+                           id="firstname-validation-msg"></p>
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+                      <div class="mdc-form-field mdc-text-field worksity-text-field--fullwidth mdc-text-field--outlined">
+                        <input id="lastname" name="lastname" type="text" class="mdc-text-field__input">
+                        <div class="mdc-notched-outline">
+                          <div class="mdc-notched-outline__leading"></div>
+                          <div class="mdc-notched-outline__notch">
+                            <label for="lastname" class="mdc-floating-label">Last Name</label>
+                          </div>
+                          <div class="mdc-notched-outline__trailing"></div>
+                        </div>
+                      </div>
+                      <div class="mdc-text-field-helper-line">
+                        <p class="mdc-text-field-helper-text mdc-text-field-helper-text--persistent mdc-text-field-helper-text--validation-msg"
+                           id="lastname-validation-msg"></p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-6">
+                      <div class="mdc-form-field mdc-text-field worksity-text-field--fullwidth mdc-text-field--outlined">
+                        <input id="city" name="city" type="text" class="mdc-text-field__input">
+                        <div class="mdc-notched-outline">
+                          <div class="mdc-notched-outline__leading"></div>
+                          <div class="mdc-notched-outline__notch">
+                            <label for="city" class="mdc-floating-label">City</label>
+                          </div>
+                          <div class="mdc-notched-outline__trailing"></div>
+                        </div>
+                      </div>
+                      <div class="mdc-text-field-helper-line">
+                        <p class="mdc-text-field-helper-text mdc-text-field-helper-text--persistent mdc-text-field-helper-text--validation-msg"
+                           id="city-validation-msg"></p>
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+                      <div class="row">
+                        <div class="col-md-6">
+                          <div class="mdc-form-field mdc-text-field worksity-text-field--fullwidth mdc-text-field--outlined">
+                            <input id="country" name="country" type="text" class="mdc-text-field__input">
+                            <div class="mdc-notched-outline">
+                              <div class="mdc-notched-outline__leading"></div>
+                              <div class="mdc-notched-outline__notch">
+                                <label for="country" class="mdc-floating-label">Country</label>
+                              </div>
+                              <div class="mdc-notched-outline__trailing"></div>
+                            </div>
+                          </div>
+                          <div class="mdc-text-field-helper-line">
+                            <p class="mdc-text-field-helper-text mdc-text-field-helper-text--persistent mdc-text-field-helper-text--validation-msg"
+                               id="country-validation-msg"></p>
+                          </div>
+                        </div>
+                        <div class="col-md-6">
+                          <div class="mdc-form-field mdc-text-field worksity-text-field--fullwidth mdc-text-field--outlined">
+                            <input id="postalcode" name="postalcode" type="text" class="mdc-text-field__input">
+                            <div class="mdc-notched-outline">
+                              <div class="mdc-notched-outline__leading"></div>
+                              <div class="mdc-notched-outline__notch">
+                                <label for="postalcode" class="mdc-floating-label">Postal Code</label>
+                              </div>
+                              <div class="mdc-notched-outline__trailing"></div>
+                            </div>
+                          </div>
+                          <div class="mdc-text-field-helper-line">
+                            <p class="mdc-text-field-helper-text mdc-text-field-helper-text--persistent mdc-text-field-helper-text--validation-msg"
+                               id="postalcode-validation-msg"></p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-6">
+                      <div class="mdc-form-field mdc-text-field worksity-text-field--fullwidth mdc-text-field--outlined">
+                        <input id="telephone" name="telephone" type="text" class="mdc-text-field__input">
+                        <div class="mdc-notched-outline">
+                          <div class="mdc-notched-outline__leading"></div>
+                          <div class="mdc-notched-outline__notch">
+                            <label for="telephone" class="mdc-floating-label">Telephone</label>
+                          </div>
+                          <div class="mdc-notched-outline__trailing"></div>
+                        </div>
+                      </div>
+                      <div class="mdc-text-field-helper-line">
+                        <p class="mdc-text-field-helper-text mdc-text-field-helper-text--persistent mdc-text-field-helper-text--validation-msg"
+                           id="telephone-validation-msg"></p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-12">
+                      <div class="mdc-form-field mdc-form-field--align-start">
+                        <div class="mdc-checkbox">
+                          <input type="checkbox" id="my-checkbox" class="mdc-checkbox__native-control"/>
+                          <div class="mdc-checkbox__background">
+                            <svg class="mdc-checkbox__checkmark"
+                                 viewBox="0 0 24 24">
+                              <path class="mdc-checkbox__checkmark-path"
+                                    fill="none"
+                                    d="M1.73,12.91 8.1,19.28 22.79,4.59"></path>
+                            </svg>
+                            <div class="mdc-checkbox__mixedmark"></div>
+                          </div>
+                        </div>
+                        <label for="my-checkbox">Agree to terms and conditions</label>
+                      </div>
+                      <p>You must agree before submitting.</p>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-12">
+                      <button class="mdc-button btn-success btn-lg btn-full-width">
+                        <span class="mdc-button__label">Next</span>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+  </div>
+</body>
+</html>

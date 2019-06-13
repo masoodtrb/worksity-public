@@ -1,0 +1,183 @@
+/*!
+ * Start Bootstrap - Simple Sidebar (https://startbootstrap.com/template-overviews/simple-sidebar)
+ * Copyright 2013-2019 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-simple-sidebar/blob/master/LICENSE)
+ */
+
+ * {
+     -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+     -ms-box-sizing: border-box;
+     box-sizing: border-box;
+ }
+
+ /* custom css different than bootstrap.css */
+
+ /* fonts-headings-and-paragraphs */
+
+ body{
+   margin: 0;
+   padding: 0;
+   overflow-x: hidden;
+ }
+
+ h1 {
+   font-family: bebas-neue;
+   font-weight: bold;
+   color: #707070;
+ }
+
+ h2,
+ h3{
+   font-family: poppins;
+   font-weight: bolder;
+   color: #707070;
+ }
+ h4,
+ h5,
+ h6{
+   font-family: poppins;
+   font-weight: normal;
+   color: #030203;
+ }
+
+ b {
+  font-weight: bolder;
+  color: #030203;
+}
+
+p {
+  font-family: arial;
+  font-weight: normal;
+  font-size: 15px;
+  color: #030203;
+}
+
+.span-text{
+  font-family: arial;
+  font-weight: normal;
+  font-size: 15px;
+  color: #030203;
+}
+
+.border {
+  border-style: groove;
+  border-width: thin;
+  border-radius: 20px
+}
+
+.bg-black{
+  background-color: black;
+}
+
+/* sidebar */
+
+#sidebar-wrapper {
+  min-height: 100vh;
+  margin-left: -15rem;
+  -webkit-transition: margin .25s ease-out;
+  -moz-transition: margin .25s ease-out;
+  -o-transition: margin .25s ease-out;
+  transition: margin .25s ease-out;
+}
+
+#sidebar-wrapper .list-group {
+  width: 15rem;
+}
+
+#page-content-wrapper {
+  min-width: 100vw;
+}
+
+#wrapper.toggled #sidebar-wrapper {
+  margin-left: 0;
+}
+
+@media (min-width: 768px) {
+  #sidebar-wrapper {
+    margin-left: 0;
+  }
+
+  #page-content-wrapper {
+    min-width: 0;
+    width: 100%;
+  }
+
+  #wrapper.toggled #sidebar-wrapper {
+    margin-left: -15rem;
+  }
+}
+
+/* Containers */
+
+.first-container{
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+.second-container{
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+/* rows and cols */
+
+.row-margin{
+  padding-top: 70px;
+}
+
+.margin-bottom {
+  margin-bottom: 50px;
+}
+
+.margin-top {
+  margin-top: 120px
+}
+
+.padding {
+  padding: 8px 20px;
+}
+
+.padding-left{
+  padding-left: 170px;
+}
+
+.padding-ex{
+  padding: 50px;
+}
+
+/* Buttons */
+
+.margin-text-inside{
+  margin-top: 10px;
+  font: px;
+}
+
+.rounded-corners {
+
+  border-radius: 30px;
+
+}
+
+/* Poll */
+
+.panel-body:not(.two-col) {
+       padding: 0px;
+   }
+
+   .panel-body .radio, .panel-body .checkbox {
+       margin-top: 0px;
+       margin-bottom: 0px;
+   }
+
+   .panel-body .list-group {
+       margin-bottom: 0;
+   }
+
+   .margin-bottom-none {
+       margin-bottom: 0;
+   }
+
+   .panel-body .radio label, .panel-body .checkbox label {
+       display: block;
+   }

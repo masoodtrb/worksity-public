@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
+  <meta name="theme-color" content="#000000">
+  <title>Worksity :: Login</title>
+</head>
+<body class="mdc-typography">
+<div id="root">
+  <div class="drawer-frame-root">
+    <header class="mdc-top-app-bar drawer-top-app-bar worksity-top-bar" id="app-bar" style="top: 0;">
+      <div class="mdc-top-app-bar__row">
+        <section class="mdc-top-app-bar__section mdc-top-app-bar__section--align-start">
+          <a href="#" class="demo-menu material-icons mdc-top-app-bar__navigation-icon">menu</a>
+          <span class="mdc-top-app-bar__title">Worksity</span>
+        </section>
+        <section class="mdc-top-app-bar__section mdc-top-app-bar__section--align-end hidden-sm hidden-xs">
+          <div class="mdc-text-field mdc-text-field--outlined mdc-text-field--with-leading-icon worksity-layout--search-bar">
+            <i class="material-icons mdc-text-field__icon">search</i>
+            <input class="mdc-text-field__input">
+            <div class="mdc-notched-outline">
+              <div class="mdc-notched-outline__leading"></div>
+              <div class="mdc-notched-outline__notch">
+                <label class="mdc-floating-label">Search</label>
+              </div>
+              <div class="mdc-notched-outline__trailing"></div>
+            </div>
+          </div>
+        </section>
+        <section class="mdc-top-app-bar__section mdc-top-app-bar__section--align-end">
+          <a href="#" class="mdc-button mdc-top-app-bar__action-link">FAQ</a>
+          <a href="#" class="mdc-button btn-warning nav-item">Hire</a>
+          <button class="mdc-fab btn-default--fab"
+                  aria-label="Favorite"
+                  style="">
+            <span class="material-icons fab__icon-lg mdc-fab__icon">account_circle</span>
+          </button>
+        </section>
+      </div>
+      <div class="mdc-top-app-bar__row visible-sm visible-xs">
+        <section class="mdc-top-app-bar__row mdc-top-app-bar__section">
+          <div class="mdc-text-field mdc-text-field--outlined mdc-text-field--with-leading-icon worksity-layout--search-bar">
+            <i class="material-icons mdc-text-field__icon">search</i>
+            <input class="mdc-text-field__input">
+            <div class="mdc-notched-outline">
+              <div class="mdc-notched-outline__leading"></div>
+              <div class="mdc-notched-outline__notch">
+                <label class="mdc-floating-label">Search</label>
+              </div>
+              <div class="mdc-notched-outline__trailing"></div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </header>
+    <aside class="mdc-drawer mdc-drawer--dismissible mdc-top-app-bar--fixed-adjust mdc-drawer--open worksity-drawer">
+
+      <div class="mdc-drawer__header">
+        <div class="worksity-logo-drawer"></div>
+      </div>
+      <div class="mdc-drawer__content">
+        <nav class="mdc-list">
+          <a class="mdc-list-item mdc-list-item--activated" aria-selected="true" tabindex="0" href="#">
+            <span class="mdc-list-item__text">Featured</span>
+          </a>
+          <a class="mdc-list-item" href="#">
+            <span class="mdc-list-item__text">Apartment</span>
+          </a>
+          <a class="mdc-list-item" href="#">
+            <span class="mdc-list-item__text">Accessories</span>
+          </a>
+          <a class="mdc-list-item" href="#">
+            <span class="mdc-list-item__text">Shoes</span>
+          </a>
+          <a class="mdc-list-item" href="#">
+            <span class="mdc-list-item__text">Tops</span>
+          </a>
+          <a class="mdc-list-item" href="#">
+            <span class="mdc-list-item__text">Bottoms</span>
+          </a>
+          <a class="mdc-list-item" href="#">
+            <span class="mdc-list-item__text">Dresses</span>
+          </a>
+          <a class="mdc-list-item" href="#">
+            <span class="mdc-list-item__text">My Account</span>
+          </a>
+        </nav>
+      </div>
+    </aside>
+
+    <div class="mdc-drawer-app-content mdc-top-app-bar--fixed-adjust">
+      <main class="main-content worksity-home" id="main-content">
+        <div class="mdc-layout-grid">
+          <div class="mdc-layout-grid mdc-layout-grid--align-center demo-grid demo-grid--alignment" style="width: 50%">
+            <div class="mdc-layout-grid__inner">
+              <div class="demo-cell mdc-layout-grid__cell mdc-layout-grid__cell--span-12-desktop">
+                <div class="mdc-card login-card mdc-card--outlined">
+                  <h2>Login to the Worksity</h2>
+                  <div class="row">
+                    <div class="col-md-6">
+                      <button class="mdc-button btn-full-width mdc-button--outlined btn-facebook--o">Login By Facebook</button>
+                    </div>
+                    <div class="col-md-6">
+                      <button class="mdc-button btn-full-width mdc-button--outlined btn-twitter--o">Login By Twitter</button>
+                    </div>
+                  </div>
+                  <hr>
+                  <div class="row">
+                    <div class="col-xs-6">
+                      <div class="mdc-form-field mdc-text-field worksity-text-field--fullwidth mdc-text-field--outlined">
+                        <input id="username" name="username" class="mdc-text-field__input">
+                        <div class="mdc-notched-outline">
+                          <div class="mdc-notched-outline__leading"></div>
+                          <div class="mdc-notched-outline__notch">
+                            <label for="username" class="mdc-floating-label">Username</label>
+                          </div>
+                          <div class="mdc-notched-outline__trailing"></div>
+                        </div>
+                      </div>
+                      <div class="mdc-text-field-helper-line">
+                        <p class="mdc-text-field-helper-text mdc-text-field-helper-text--persistent mdc-text-field-helper-text--validation-msg"
+                           id="username-validation-msg">Use your email address or username to log-in</p>
+                      </div>
+                    </div>
+                    <div class="col-xs-6">
+                      <div class="mdc-form-field mdc-text-field worksity-text-field--fullwidth mdc-text-field--outlined">
+                        <input id="password" name="password" type="password" class="mdc-text-field__input">
+                        <div class="mdc-notched-outline">
+                          <div class="mdc-notched-outline__leading"></div>
+                          <div class="mdc-notched-outline__notch">
+                            <label for="password" class="mdc-floating-label">Password</label>
+                          </div>
+                          <div class="mdc-notched-outline__trailing"></div>
+                        </div>
+                      </div>
+                      <div class="mdc-text-field-helper-line">
+                        <p class="mdc-text-field-helper-text mdc-text-field-helper-text--persistent mdc-text-field-helper-text--validation-msg"
+                           id="password-validation-msg"></p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-12">
+                      <div class="mdc-form-field mdc-form-field--align-start">
+                        <div class="mdc-checkbox">
+                          <input type="checkbox" id="my-checkbox" class="mdc-checkbox__native-control"/>
+                          <div class="mdc-checkbox__background">
+                            <svg class="mdc-checkbox__checkmark"
+                                 viewBox="0 0 24 24">
+                              <path class="mdc-checkbox__checkmark-path"
+                                    fill="none"
+                                    d="M1.73,12.91 8.1,19.28 22.79,4.59"></path>
+                            </svg>
+                            <div class="mdc-checkbox__mixedmark"></div>
+                          </div>
+                        </div>
+                        <label for="my-checkbox">Remember Me</label>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-12">
+                      <button class="mdc-button btn-success btn-lg btn-full-width">
+                        <span class="mdc-button__label">Login</span>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,33 @@
+//@import "../../node_modules/font-awesome/scss/font-awesome";
+$fa-font-path: '~@fortawesome/fontawesome-free/webfonts';
+@import "~@fortawesome/fontawesome-free/scss/fontawesome";
+@import "~@fortawesome/fontawesome-free/scss/brands";
+@import "~@fortawesome/fontawesome-free/scss/solid";
+@import "~@fortawesome/fontawesome-free/scss/regular";
+@import "~material-design-icons/iconfont/material-icons.css";
+
+@import "variables";
+@import "~@material/layout-grid/mdc-layout-grid";
+@import "~@material/typography/mdc-typography";
+@import "~@material/drawer/mdc-drawer";
+@import "~@material/list/mdc-list";
+@import "~@material/elevation/mdc-elevation";
+@import "~@material/top-app-bar/mdc-top-app-bar";
+@import "~@material/card/mdc-card";
+@import "~@material/toolbar/mdc-toolbar";
+@import "~@material/button/mdc-button";
+@import "~@material/fab/mdc-fab";
+@import "~@material/icon-button/mdc-icon-button";
+@import "~@material/menu-surface/mdc-menu-surface";
+@import "~@material/textfield/mdc-text-field";
+@import "~@material/ripple/mdc-ripple";
+@import "~@material/ripple/mixins";
+@import "~@material/theme/mdc-theme";
+@import "~@material/form-field/mdc-form-field";
+@import "~@material/floating-label/mdc-floating-label";
+@import "~@material/checkbox/mdc-checkbox";
+@import "~@material/linear-progress/mdc-linear-progress";
+@import "~flexboxgrid";
+
+
+@import './custom.scss';
